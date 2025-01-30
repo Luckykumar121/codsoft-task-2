@@ -1,0 +1,154 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   font-family:'Gilroy;
+}
+
+html,body
+{
+    height:100%;
+    width:100%;
+}
+.parent{
+    height:100%;
+    width: 100%;
+    background:linear-gradient(to right bottom,rgb(255, 111, 0),rgb(8, 148, 195),rgb(83, 4, 201));
+    
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    height: 15%;
+    width:90%;
+    text-align: right;
+    border:none;
+    color: #000;
+   border-radius: 15px;
+    font-size: 3vw;
+    margin-top: .5%;
+    outline: none;
+    background-color: #dadada;
+    
+}
+
+.cal{
+    height: 90%;
+    width:30%;
+    padding-top: 15px;
+    text-align: center;
+    background-color: transparent;
+    box-shadow:-7px 8px 1rem #000;
+    background: radial-gradient(rgb(133, 1, 78),rgb(54, 5, 158));
+    border-radius: 2rem ;
+    border: 1px solid #000;
+    
+    
+}
+.bts{
+    margin-left: 1vw;
+}
+button{
+    height:11.5vh;
+    width: 6.5vw;
+    margin-top: 1rem;
+    margin-right: .2rem;
+    border-radius: 1.5rem;
+       border:1px solid #000;
+    /* background: transparent; */
+    background-color:rgb(179, 84, 6);
+    mix-blend-mode:difference;
+    color: #0be600;
+    backdrop-filter:blur(0px);
+    font-size: 1.8rem;
+    font-weight: 700
+   
+    
+    
+}
+button:hover{
+    box-shadow: 0 0 2rem rgb(255, 251, 0);
+    color: #fff;
+}
+@media (max-width:600px){
+    .cal{
+        height: 70%;
+        width:90%;
+        text-align: center;
+        background:linear-gradient(to right bottom,rgb(44, 0, 164),rgb(89, 0, 137),rgb(38, 0, 110));
+        border-radius: 2rem;
+        
+        
+    }
+    input{
+        height: 10%;
+        width:99%;
+        border:none;
+        border-radius: 2rem;
+        font-size: 5vw;
+        margin-top: 1%;
+           background-color: #dadada;
+        
+    }
+    button{
+        height:10vh;
+        width: 15vw;
+        gap: 2vw;
+        margin-top: 2rem;
+        margin-right: .3rem;
+        border-radius: 1rem;
+        color: #fff;
+        border: none;
+        background-color: rgb(255, 98, 0);
+        font-size: 1.5rem;
+        font-weight: 700;
+    }    
+    button:hover{
+        box-shadow: none;
+    }
+
+}
+/* @media (min-width:900px) {
+    .cal{
+        height: 70%;
+        width:90%;
+        text-align: center;
+        background:linear-gradient(to right bottom,rgb(44, 0, 164),rgb(89, 0, 137),rgb(38, 0, 110));
+        border-radius: 2rem;
+        
+        
+    }
+    .bts{
+        margin-left: 1vw;
+    }
+    input{
+        height: 10%;
+        width:99%;
+        border:none;
+        border-radius: 2rem;
+        font-size: 5vw;
+        margin-top: 1%;
+           background-color: #dadada;
+        
+    }
+    button{
+        height:10vh;
+        width: 15vw;
+        gap: 2vw;
+        margin-top: 3rem;
+        margin-right: 1rem;
+        border-radius: 1rem;
+        color: #fff;
+        border: none;
+        background-color: rgb(255, 98, 0);
+        font-size: 1.5rem;
+        font-weight: 700;
+    }    
+    button:hover:disabled
+
+    
+} */
